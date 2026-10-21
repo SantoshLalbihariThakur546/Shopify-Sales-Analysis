@@ -1,0 +1,6 @@
+.venv/
+__pycache__/
+*.pyc
+.env
+data/*.xlsx
+data/reference/customer_summary.csv

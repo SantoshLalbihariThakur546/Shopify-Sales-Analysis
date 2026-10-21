@@ -1,0 +1,20 @@
+Column,Suggested type,Meaning / note
+Admin Graphql Api Id,Text,Shopify line-item GraphQL identifier
+Order Number,Whole number,Order identifier; verify source grain as all values are distinct
+Billing Address Country,Text,Customer billing country
+Billing Address First Name,Text,Personal information; avoid using in visuals
+Billing Address Last Name,Text,Personal information; avoid using in visuals
+Billing Address Province,Text,Billing province/state
+Billing Address Zip,Whole number,Postal code; may be better treated as text
+CITY,Text,Billing city
+Currency,Text,Currency code; USD in supplied extract
+Customer Id,Whole number,Customer identifier
+Invoice Date,Date/time,Transaction timestamp
+Gateway,Text,Payment gateway
+Product Id,Numeric/nullable,Product identifier; 11 missing
+Product Type,Text,Product category/type
+Variant Id,Numeric/nullable,Variant identifier; 4 missing
+Quantity,Whole number,Units in row
+Subtotal Price,Decimal,Recorded subtotal excluding tax
+Total Price Usd,Decimal,Recorded total price including tax
+Total Tax,Decimal,Recorded tax amount
